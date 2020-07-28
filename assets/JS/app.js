@@ -33,7 +33,7 @@ function makeResponsive() {
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
     // Import Data
-    d3.csv("../assets/data.csv").then(function(censusData) {
+    d3.csv("assets/data.csv").then(function(censusData) {
 
         // Parse Data/Cast as numbers
         censusData.forEach(function(data) {
