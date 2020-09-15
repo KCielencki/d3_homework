@@ -235,7 +235,7 @@ function makeResponsive() {
     }
 
     // Retrieve data from the CSV file and execute everything below
-    d3.csv("../assets/data.csv").then(function(censusData, err) {
+    d3.csv("assets/data.csv").then(function(censusData, err) {
         if (err) throw err;
 
         // parse data
